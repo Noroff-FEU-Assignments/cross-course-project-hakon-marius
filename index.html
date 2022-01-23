@@ -1,15 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>My first website</title>
-  <link href="css/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94f62694c8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Russo+One&family=Sedgwick+Ave&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Sedgwick+Ave&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Sedgwick+Ave&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94f62694c8.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body>
-  <h1>Hello world!</h1>
-  <p>Welcome to my first website.</p>
+    <header>
+
+
+        <a href="index.html" class="logo"><img src="Images/GameHub_Logo.png"></a>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Games</a></li>
+                <li><a href="Usedgames.html">Used Games</a></li>
+                <li><a href="Shop.html">Shop+</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="account.html">my account</a></li>
+        </nav>
+
+    </header>
+    <main class="center-main">
+
+        <div class="user-account">
+            <i class="far fa-user"></i>
+        </div>
+        <section class="backgroundpic">
+        </section>
+        <div class="cta">
+            <a href="new releases.html">new relases</a>
+        </div>
+        <div class="game-picker">
+            <section>
+                <h1>Games</h1>
+                <img src="Images/racing image.jpg" class="games-image" alt="racingflag with text racing">
+            </section>
+
+            <section>
+                <h1>VR games</h1>
+                <img src="Images/boxingimage.jpg" class="games-image" alt="boxer simulating boxing with text boxer">
+            </section>
+
+            <section>
+                <h1>used games</h1>
+                <img src="Images/pingpong image.jpg" class="games-image" alt="picture of 2 rackets and a ball">
+            </section>
+        </div>
+
+        <section class="social-media">
+            <h3>follow us on social media</h2>
+                <div class="social-media-icons">
+                    <i class="fab fa-snapchat-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer_section_1">
+
+            <P class="margintop">About GameHub</P>
+            <P>Company info</P>
+            <P>carrers</P>
+
+            <P class="margintop">products</P>
+            <P>games </P>
+            <P>used games</P>
+
+            <P class="margintop">contact</P>
+            <p><a href="tel:+0047500035000">+0047 5000 35 000</a></p>
+
+            <P class="margintop">visit</P>
+            <P>carl johansgate 19</P>
+            <P>1316 oslo</P>
+
+        </section>
+
+        <section class="footer_section_2">
+
+            <p> &copy; 2022 game hub, inc.</p>
+            <p>all rights reserved</p>
+        </section>
+
+
+    </footer>
+
+
+
 </body>
 
 </html>
