@@ -1,21 +1,29 @@
 
 
-Body {
-    margin:0px;
-    text-transform:capitalize;
+html {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
     min-height: 100vh;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
-h1 {
+
+h1, .login-mobil, .cta {
     font-family: 'Russo One', sans-serif;
-    font-size: 50px;
+    font-size: 2.5rem;
     text-align: center;
+}
+
+p {
+
+    font-size: 1.2em;
 }
 
 h2, p {
@@ -32,6 +40,9 @@ header {
     align-items: center;
     justify-content: space-between;
     color: #FFF;
+    position: relative;
+    font-size: 2rem;
+    height: 150px   ;
 }
 
 footer {
@@ -49,11 +60,12 @@ footer {
 
 .footer_section_2 {
 
-margin-top: 10px;
+ margin-top: 15px;
  border-top-color: black;
  text-align: center;
  border-top-style: solid;
  padding-left: 10%;
+ margin-left: -20px;
 }
 
 .margintop {
@@ -65,28 +77,34 @@ margin-top: 10px;
 
 .logo img {
     height: 120px;
-    width: 120px;
-    margin: 40px 0px 20px 25px;
+    margin-top: 15px;
+    margin-left: 21px;
 }
+
 a {
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
+}
+h1  a {
+    text-decoration: none;
+    color: #198EE4;
 }
 
 nav {
-    margin-left: 25px;
+    
     display: none;
-    position: fixed;
-    top: 183px;
+    position: absolute;
+    top: 145px;
     background-color: #198EE4;
     z-index: 1000;
     right: 0px;
+    
 }
 
 
 nav li {
     display: block;
-    padding: 20px 30px;
+    padding: 15px 20px;
 }
 
 li a {
@@ -94,20 +112,24 @@ li a {
 }
 
 .cta {
-    display: inline-block;
-    justify-content: center;
-    background-color: #FC1222;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    border-style: solid;
-    border-color : #fff;
-    font-size: 2em;
-   margin-top: -10px;
-   margin-left: 25%;
-   margin-bottom: 20px;
+    
+    
+background-color: #FC1222;
+border-radius: 10px;
+padding: 5px 10px 5px 10px;
+border-style: solid;
+border-color : #fff;
+font-size: 1.9em;
+margin-top: -10px;
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 20px;
+min-width: 250px;
    
     }
 
+  
+        
    .user-account {
        display: none;
    }
@@ -120,11 +142,26 @@ li a {
     display: block;
 }
 
+ .hamburgerbars {
+    position: relative;
+    margin-top: 105px;
+    align-content: flex-end;
+    margin-right: 5%;
+    
+}
+
+.login-mobil {
+    margin-top: 100px;
+}
+
+i:hover {
+    color: #000;
+}
+
 /*homepage*/
 
 .backgroundpic {
-    
-    background-image: url(Images/world-collapse-doomsday-scene-digital-painting.png);
+    background-image:url(../Images/world-collapse-doomsday-scene-digital-painting.png);
     background-size: cover;
     display: block;
     height: 350px;
@@ -135,12 +172,11 @@ li a {
     height: 140px;
     width: 160px;
     border-radius: 10px;
-    margin-left: 30%;
+    margin-left: 33%;
     margin-top: 10px;
     margin-bottom: 30px;
-    
-    
-
+   display: flex;    
+   justify-content: space-between;
 }
 
 .social-media {
@@ -151,12 +187,15 @@ text-align: center;
 color: #FFC02E;
 padding-top: 25px;
 
+
 }
 
 .social-media-icons {
 padding-bottom: 25px;
-    font-size: 100px;
-    color: #fff;
+font-size: 100px;
+color: #fff;
+display: flex;
+justify-content: space-around;
  
 }
 
@@ -166,13 +205,59 @@ padding-bottom: 25px;
 
 
 
+
+
+
+
 @media (min-width: 600px){
+
+    nav, nav li {
+        display: inline;
+        
+    }
+
+    nav{
+        margin-top: -35px;
+    }
 
 .game-picker {
    display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+  
 }
 
+.game-picker > * {
+
+    flex-basis: 100%;
 }
+
+.cta {
+    margin-left: 40%;
+   margin-right: 40%;
+
+}
+
+
+.backgroundpic {
+    height: 550px;
+
+}
+
+.social-media-icons {
+    
+        font-size: 150px;
+        
+     
+    }
+
+    .login-mobil {
+        display: none;
+    }
+
+    .hamburgerbars {
+        display: none;
+    }
+
+}
+
+
 
