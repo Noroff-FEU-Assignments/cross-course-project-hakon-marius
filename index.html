@@ -31,16 +31,22 @@
 
 
         <a href="index.html" class="logo"><img src="Images/GameHub_Logo.png"></a>
+
         <a href="Login.html" class="login-mobil">login</a>
         <label for="hamburger-menu" class="hamburgerbars"><i class="fas fa-bars"></i></label>
         <input type="checkbox" id="hamburger-menu" />
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Usedgames.html">Used Games</a></li>
-                <li><a href="Shop.html">Shop+</a></li>
-                <li><a href="Login.html">Login</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Usedgames.html">Games</a></li>
+                <li><a href="Shop.html">Hardware</a></li>
+                <li><a class="login"><a href="Login.html">Login</a></li>
                 <li><a href="account.html"> <i class="far fa-user"></i></a></li>
+
+                <input type="search" id="site-search" name="q" aria-label="Search through site content">
+                <button class="button">Search</button>
+
+            </ul>
         </nav>
 
 
@@ -49,26 +55,37 @@
 
 
         <section class="backgroundpic">
+            <h1 class="therealdeal">the real deal</h1>
+            <h2 class="tradeinoldgames">trade games</h2>
+
+            <div class="border1"></div>
+            <div class="border2"></div>
+            <div class="border3"></div>
+            <div class="border4"></div>
+
+
+
+            <div class="cta">
+                <a href="new releases.html">new relases</a>
+            </div>
         </section>
 
-        <div class="cta">
-            <a href="new releases.html">new relases</a>
-        </div>
+
         <div class="game-picker">
             <div class="game-picker-child">
-                <h1><a href="index.html">sports</a></h1>
+                <h2><a href="index.html">sports</a></h2>
                 <img src="Images/racing image.jpg" class="games-image" alt="racingflag with text racing">
                 <a href="new releases.html" class="cta-view-more">view more</a>
             </div>
 
             <div class="game-picker-child">
-                <h1><a href="Shop.html">vr games</a></h1>
+                <h2><a href="Shop.html">vr games</a></h2>
                 <img src="Images/boxingimage.jpg" class="games-image" alt="boxer simulating boxing with text boxer">
                 <a href="new releases.html" class="cta-view-more">view more</a>
             </div>
 
             <div class="game-picker-child">
-                <h1><a href="Usedgames.html">used games</a></h1>
+                <h2><a href="Usedgames.html">used games</a></h2>
                 <img src="Images/pingpong image.jpg" class="games-image" alt="picture of 2 rackets and a ball">
                 <a href="new releases.html" class="cta-view-more">view more</a>
             </div>
@@ -76,7 +93,7 @@
         <section class="vr-backgroundpicture">
             <div class="paragraph">
 
-                <p>Playbox VR glasses</p>
+                <p class=vr-paragraph>Playbox VR glasses</p>
                 <p>2660 x 1480 View</p>
                 <p>Screen 3.3 Bluetooth</p>
             </div>
@@ -98,36 +115,48 @@
 
     <footer>
         <section class="footer_section_1">
-            <a href="index.html" class="logo-footer"><img src="Images/GameHub_Logo.png"></a>
-
             <div>
-                <P class="margintop">About GameHub</P>
-                <P>Company info</P>
-                <P>carrers</P>
+                <a href="index.html" class="logo-footer"><img src="Images/GameHub_Logo.png"></a>
+            </div>
+            <div>
+                <ul>
+                    <h4>About GameHub</h4>
+                    <li><a href="#">company</a></li>
+                    <li><a href="#">carrers</a></li>
+                </ul>
             </div>
 
             <div>
+                <ul>
+                    <h4>products</h4>
+                    <li><a href="#">games</a></li>
+                    <li><a href="#">used games</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h4><a href="#">sign up</a></h4>
+                    <li><a href="#">contact us</a></li>
 
-                <P class="margintop">products</P>
-                <P>games </P>
-                <P>used games</P>
+                </ul>
             </div>
             <div>
-                <P class="margintop"><a href="#">contact</a></P>
-                <p><a href="tel:+0047500035000">+0047 5000 35 000</a></p>
-            </div>
-            <div>
-                <P class="margintop">visit</P>
-                <P>carl johansgate 19</P>
-                <P>1316 oslo</P>
+
+                <ul>
+                    <h4>visit</h4>
+                    <li>carl johansgate 19</li>
+                    <li>1316 oslo</li>
+                </ul>
             </div>
         </section>
 
         <section class="footer_section_2">
+            <div>
+                <p> &copy; 2022 game hub, inc, all rights reserved</p>
 
-            <p> &copy; 2022 game hub, inc.</p>
-            <p>all rights reserved</p>
+            </div>
         </section>
+
 
 
     </footer>
