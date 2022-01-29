@@ -54,7 +54,9 @@ align-items: center;
 color: #FFF;
 justify-content: flex-end;
 height: 125.6px;   
+
 }
+
 
  .logo {
 margin-right: auto;
@@ -96,6 +98,11 @@ display: none;
 border: 0;
 }
 
+
+.searchtool {
+    display: none;
+}
+
 /*Links*/
 
 .logo img {
@@ -125,6 +132,7 @@ background-color: #198EE4;
 z-index: 1000;
 right: 0px;
 font-family: 'Russo One', sans-serif;
+
 }
 
 nav li {
@@ -204,9 +212,7 @@ font-size: 24px;
 z-index: 1001;
 }
 
-i:hover {
-color: #000;
-}
+
 
 .vr-cta-view-more {
 position: absolute;
@@ -236,15 +242,7 @@ height: 120px;
 display: none;
 }
 
-.footer_section_1 ul {
-list-style: none;
-padding-top: 35px;
-}
 
-.footer_section_1 ul li a, li {
-color: black;
-font-size: 1.1em;
-}
 
 .signup {
 color: #fff;
@@ -258,11 +256,22 @@ padding-bottom: 3px;
 .footer_section_1 {
 margin-left: 30px;
 padding: 5px;
+margin-bottom: 10px;
 }
 
-.footer_section_2 {
-padding: 10px;
+.footerstyle {
+    padding-top: 35px;
 }
+
+.footerstyle p {
+padding: 4px;
+}
+
+.footerstyle a {
+    color: #000;;
+}
+
+
 
 /*homepage*/
 
@@ -425,7 +434,11 @@ nav ul {
 }
 
 
-
+@media (min-width: 601px) and (max-device-width: 1199px) {
+.searchtool {
+    display: inline-flex;
+}
+}
 
 @media (min-width: 1200px){
 
@@ -442,30 +455,24 @@ nav ul {
         margin-bottom: 30px;
 }
 
-
 h1, .cta {
     
     font-size: 3rem;
 
     }
 
-
-
     .footer_section_1, .footer_section_2 {
 
         display:grid;
         grid-auto-flow: column;
         margin-bottom: 15px;
-        
-              
+                  
     }
 
     .footer_section_1, .footer_section_2 h4  {
         padding-top: 25px;
         
     }
-
-
 
     .logo-footer img {
         height: 120px;
@@ -484,15 +491,19 @@ h1, .cta {
     display: inline-flex;
 }
 
+.button:hover {
+    color: #fff;
+    background-color: #198EE4 ;
+    border: #fff;
+     
+}
+
 .cta:hover {
     border-color : #D31421;
     background-color: #D31421;
     }
 
-
     nav ul {
         margin: 0px;
     }
-    
-
-}
+    }
