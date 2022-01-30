@@ -124,6 +124,10 @@ nav {
     font-family: 'Russo One', sans-serif;
 }
 
+.gamepicker h2:hover, nav li a:hover {
+    color: black;
+}
+
 nav li {
     display: block;
     padding: 20px 8px;
@@ -241,6 +245,8 @@ display: none;
     border-radius: 3px;
     max-width: 75px;
     display: none;
+    height: 22px;
+    
 }
 
 /*footer*/
@@ -333,7 +339,7 @@ display: none;
 }
 
 .vr-backgroundpicture {
-    background-image:url(../Images/vr-background-image.jpeg);
+    background-image:url(../Images/vr-background-image\ copy.jpg);
     background-size: cover;
     display: block;
     height: 600px;
@@ -341,6 +347,13 @@ display: none;
     display: none;
     position: relative;
 }
+.vr-backgroundpicture h1 {
+    position: absolute;
+    top:25px;
+    left:25px;
+    font-size: 60px;
+}
+
 
 .games-image {
     width: 250px;
@@ -349,7 +362,7 @@ display: none;
 }
 
 .games-image:hover {
-    width: 275px;
+    width: 260px;
     transition: all 0.3s ease-out;
 }
 
@@ -407,6 +420,8 @@ nav, nav li {
     display: inline-flex;
 }
 
+
+
 .backgroundpic {
     height: 550px;
 }
@@ -457,6 +472,7 @@ nav li {
 @media (min-width: 1200px){
 
 .vr-backgroundpicture {
+    background-image:url(../Images/vr-background-image_copy_adjusted\ copy.jpg);
     display: block;
     margin-bottom: 120px;
 }
@@ -511,6 +527,7 @@ nav ul {
 
 .login {
     display: inline-flex;
+    padding-right: 0px;
 }
 
 .searchfield, .searchfield input, .searchbutton   {
@@ -523,6 +540,11 @@ nav {
 }
 
 nav li {
-    padding: 28px 10px;
-}            
+    padding: 28px 7px;
+}  
+.games-image:hover {
+    width: 275px;
+    transition: all 0.3s ease-out;
+}
+
 }
