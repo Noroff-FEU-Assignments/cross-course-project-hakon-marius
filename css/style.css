@@ -6,8 +6,6 @@ html {
     min-height: 100vh;
 }
  
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -21,7 +19,7 @@ h1 {
 
 .therealdeal {
     position: absolute;
-    top: 68px;
+    top: 50px;
     left: 27px;
 }
 
@@ -177,10 +175,6 @@ li a {
     display: none;
 }
 
-/*
-#hamburger-menu{
-display: none;
-}*/
 
 #hamburger-menu:checked ~ nav {
     display: block;
@@ -219,11 +213,6 @@ display: none;
     border-color : #D31421;
     background-color: #D31421;
 }
-
-/*
-.login {
-display: none;
-}*/
 
 .searchbutton {
     color: #1579C1;
