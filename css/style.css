@@ -1,4 +1,3 @@
-
 html {
     margin: 0;
     padding: 0;
@@ -11,23 +10,9 @@ html {
     padding: 0px;
     box-sizing: border-box;
 }
-
-
+ 
 h1 {
     color: #FFF;
-}
-
-.therealdeal {
-    position: absolute;
-    top: 50px;
-    left: 27px;
-}
-
-.tradeinoldgames {
-    color:#FFF;
-    position: absolute;
-    bottom: 12px;
-    left: 18px;       
 }
 
 h1, .vr-cta-view-more {
@@ -53,6 +38,8 @@ header {
     color: #FFF;
     justify-content: flex-end;
     height: 125.6px;   
+    position: relative;
+    z-index: 1;
 }
 
  .logo {
@@ -73,17 +60,6 @@ footer {
 .search {
     display: flex;
     display: inline-flex;   
-}
-
-.button {
-    margin: 0px 5px;
-    display: none;
-    font-family: 'Russo One', sans-serif;
-    background-color: #FFF;
-    padding: 2px 4px;
-    border-radius: 3px;
-    border: 0;
-    color: #1579C1;
 }
 
 /*Links*/
@@ -115,7 +91,7 @@ h3 {
 nav {   
     display: none;
     position: absolute;
-    top: 103px;
+    top: 125px;
     background-color: #1579C1;
     z-index: 1000;
     right: 0px;
@@ -128,7 +104,7 @@ nav {
 
 nav li {
     display: block;
-    padding: 20px 8px;
+    padding: 10px 8px;
     line-height: 0.5;
 }
 
@@ -139,6 +115,37 @@ nav ul {
 li a {
     margin-top: 5px;
 }
+
+/* nav dropdowlist start*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown_hardware {
+    display: none;
+    position: absolute;
+    background-color: #1579C1;
+    z-index: 9000; 
+   margin-top: 10px;
+}
+
+.dropdown_hardware ul {
+color: #fff;
+display: block;
+}
+
+.dropdown_hardware ul:hover {
+    background-color: #1579C1;
+    padding: 20px 20px;
+    margin-top: 3px;
+}
+
+.dropdown:hover >ul {
+    display: none; 
+}
+
+/* nav dropdowlist end*/
 
 .cta {
     position: absolute;
@@ -221,21 +228,19 @@ li a {
     padding: 7px 5.5px 7px 5.5px;
     font-size: 16px;
     font-family: 'Russo One', sans-serif;
-    display: none;
+    display: none;  
 }
 
 .snapchat:hover, .facebook:hover, .snapchat:hover {
     color: #000;
 }
 
-
 .searchfield input {
     border:0;
     border-radius: 3px;
     max-width: 75px;
     display: none;
-    height: 22px;
-    
+    height: 22px;   
 }
 
 /*footer*/
@@ -282,6 +287,19 @@ li a {
 
 /*homepage*/
 
+.therealdeal {
+    position: absolute;
+    top: 50px;
+    left: 27px;
+}
+
+.tradeinoldgames {
+    color:#FFF;
+    position: absolute;
+    bottom: 12px;
+    left: 18px;       
+}
+
 .backgroundpic {
     background-image:url(../Images/world-collapse-doomsday-scene-digital-painting.png);
     background-size: cover;
@@ -326,6 +344,10 @@ li a {
     width: 3px;
     height: 500px;
 }
+/* End dekorations Homepage only for viewport +1200px*/
+
+
+/*VR section*/
 
 .vr-backgroundpicture {
     background-image:url(../Images/vr-background-image\ copy.jpg);
@@ -342,7 +364,6 @@ li a {
     left:25px;
     font-size: 60px;
 }
-
 
 .games-image {
     width: 250px;
@@ -409,7 +430,9 @@ nav, nav li {
     display: inline-flex;
 }
 
-
+.dropdown:hover >ul {
+    display: block;  
+}
 
 .backgroundpic {
     height: 550px;
@@ -433,29 +456,16 @@ nav ul {
 .login {
     display: inline-flex;
     }
-
+    
 nav {
-    top: 56px;
-    z-index: 0;
+    top: 84px;
 }
 
-nav li {
-    padding: 28px 10px;
-}
 .cta {
-    position: absolute;
-    background-color: #FC1222;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    border-style: solid;
-    border-color : #fff;
-    font-size: 1.8rem;
-    font-family: 'Russo One', sans-serif;
-    bottom: 65px;
+ 
     right:90px;
-    z-index: 1001;
+    font-size: 1.8rem;
 }
-
 }
 
 @media (min-width: 1200px){
@@ -495,12 +505,6 @@ h1, .cta {
     display: inline;
 }
 
-.button:hover {
-    color: #fff;
-    background-color: #1579C1 ;
-    border: #fff;
-}
-
 .cta:hover {
     border-color : #D31421;
     background-color: #D31421;
@@ -522,18 +526,13 @@ nav ul {
 .searchfield, .searchfield input, .searchbutton   {
     display: inline-flex;
 }
-            
+    
 nav {
-    top: 56px;
-    z-index: 0;
+    top: 78px;
 }
 
-nav li {
-    padding: 28px 7px;
-}  
 .games-image:hover {
     width: 275px;
     transition: all 0.3s ease-out;
 }
-
 }
