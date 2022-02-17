@@ -1,3 +1,5 @@
+
+
 html {
     margin: 0;
     padding: 0;
@@ -265,7 +267,7 @@ display: block;
     padding: 5px;
     margin-bottom: 10px;
     position: relative;
-    margin-top: 10px;
+    
 }
 
 .footerstyle {
@@ -515,7 +517,7 @@ font-size: 16px;
 }
 
 
-/*Furious*/
+/*Furious add to cart*/
 
 .furious {
     text-align: center; 
@@ -525,27 +527,69 @@ font-size: 16px;
 .furious_img {
     position: relative;
    display: block;
-   max-width: 85%;
+   width: 85%;
    left:7.5%;
 }
-
-.furious_price{
-    display: flex; 
-    display: inline-flex;
+.furious h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.furious h2 {
+    font-size: 1.6rem;
+    margin-top: 27px;
 }
 
-.furious_price p {
-justify-content: space-between;
-margin: 10px;
+
+.name_price_container {
+    width: 85%;
+    position: relative;
+    margin: auto;
+}
+.paragraph_fur{
+    position: relative;
+   text-align: left;
+   font-family: 'ubuntu', sans-serif;
+   font-weight: bold;
+   font-size: 25px;
+   
+}
+
+.price_furious {
+    position: relative;
+    text-align: right;
+    top:-26px;
+    margin-bottom: 15px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.add_to_cart_container{
+    margin-bottom:40px;
 }
 .add_to_cart {
     background-color: #1579C1;
-    border-radius: 3px;
-    padding: 7px 20px 7px 20px;
-    font-size: 16px;
-    margin: 15px auto 15px auto;
-    
+    border-radius: 15px;
+    padding: 15px 60px 15px 60px;
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
     }
+
+    .ratings p {
+        display: inline-flex;
+        margin-bottom: 25px;
+        
+    }
+    .text_furious{
+        display: block;
+        text-align: left;
+        margin:auto;
+        max-width: 85%;
+        
+   
+    }
+
 /*media*/
 
 @media (min-width: 600px){
@@ -586,7 +630,6 @@ nav {
 }
 
 .cta {
- 
     right:90px;
     font-size: 1.8rem;
 }
@@ -638,8 +681,7 @@ h1, .cta {
 
 .footer_section_1, .footer_section_2 {
     display:grid;
-    grid-auto-flow: column;
-    margin-bottom: 10px;     
+    grid-auto-flow: column;   
 }
 
 .footer_section_1, .footer_section_2 h4  {
@@ -700,5 +742,75 @@ nav {
 .contact_header {
     position: relative;
     top:-20px;
+}
+
+/*furious add to cart*/
+.furious {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.furious > * {
+    flex-basis: 100%;
+    margin:50px;
+}
+
+.furious_img {
+    width:550px;
+    margin-left: auto;
+}
+
+
+.sections_2{
+    text-align: left; 
+}
+
+.text_furious {
+    margin-left: auto;
+    margin-left: 50px;
+    top:165px;
+    position: relative;
+    height: 235px;
+    
+}
+
+.add_to_cart{
+    position: relative;
+    top: 600px;
+    text-align: left;
+    margin-left: 46px;
+}
+
+.ratings{
+    position: relative;
+    top:365px;
+    text-align: left;
+    margin-left:50px;
+}
+.paragraph_fur{
+    display: none;
+}
+.furious h1 {
+    left:329px;
+    top:127px;
+    position: relative;
+    text-align: right;
+}
+
+.section_1_h1 {
+   text-align: right;
+   position: relative;
+   left: 266px;
+   top: 125px;
+}
+
+.price_furious{
+    color: red;
+    text-align: left;
+    top: 576px;
+    left:18px;
+    display: inline;
+
 }
 }
