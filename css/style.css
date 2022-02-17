@@ -586,9 +586,40 @@ font-size: 16px;
         text-align: left;
         margin:auto;
         max-width: 85%;
-        
-   
     }
+
+    /*new releases*/
+
+    .new_releases_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .new_releases_games_1 {
+        width: min(80%, 700px);
+        text-align: center;
+        margin:auto;  
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .new_releases_games_1 img {
+        width: min(80%, 700px);
+        margin:10px 0 10px 0;
+    }
+
+    
+
+    .buy_now {
+    background-color: #1579C1;
+    width: 100px;
+    text-align: center; 
+    }
+   
+
+ 
+
 
 /*media*/
 
