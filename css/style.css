@@ -682,7 +682,6 @@ font-size: 16px;
     font-size: 16px;
     position: relative;
     margin: 3% auto 3% auto;
-  
 }
 
 .checkout_h1 h1{
@@ -803,41 +802,67 @@ color: #1579C1;
 /*search*/
 
 
-/*media*/
 
-.search_site{
-display: flex;
-flex-direction: row;
-justify-content: center;
-height: 300px;
-position: relative;
-top:70px;
-gap:5px;
+.searchresult{
+    display: flex;
+    flex-direction: row; 
+}
+
+.searchfield_btn{
+    display: flex;
+   justify-content: center;
+   margin: 100px 0px 40px 0px;    
+}
+
+.searchtext {
+    text-align: start;
+    margin-top: 10px;
+}
+    
+
+.search_btn{
+    height: 30px;
+    width: 70px;
+    background-color: #1579C1;
+    color: #fff;
+    border-radius: 3px;  
+}
+.searchfield_btn input{
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 5px;
+    width: min(70%, 800px);
+    text-align: right;
+    padding-right: 5px;
+}
+
+.searchresult > *{
+flex: 1;
+}
+
+.searchfield_btn{
+ align-items: center;
 }
 
 .search_img{
-    width: min(70%, 190px);
-    flex: 1;
-    text-align: right; 
+width: min(90%, 400px);
+margin-bottom: min(15%, 200px);
+
 }
-
-
-.search_text, h1{
-    text-align: left;
-    flex: 1;
-    font-size: 16px;
-    margin:0%
+.section_1{
+    display: flex;
+    justify-content: flex-end;
+    margin: 7px;
+} 
+.section_2{
     
-}
-#search{
+    justify-content: flex-start;
     display: block;
-    margin: auto;
-    align-content: center;
-    position: relative;
-    top: 60px;
-    width: min(90%, 280px);
-    border-radius: 5px;
+    margin: 7px;
 }
+
+/*media*/
+
 @media (min-width: 600px){
 
 nav, nav li {
@@ -1078,4 +1103,9 @@ flex-direction: row;
     flex-direction: row;
 
 }
+
+/*searchpage*/
+
+  
+
 }
