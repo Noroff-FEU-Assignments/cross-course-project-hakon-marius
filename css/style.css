@@ -95,6 +95,7 @@ nav {
     z-index: 1000;
     right: 0px;
     font-family: 'Russo One', sans-serif;
+    width: 100%;
 }
 
 .gamepicker h2:hover, nav li a:hover {
@@ -103,23 +104,33 @@ nav {
 
 nav li {
     display: block;
-    padding: 10px 8px;
+    padding: 10px 4px;
     line-height: 0.5;
+    display: inline-block;
 }
 
-nav ul {
-    margin: 5px;
+
+
+nav ul:first-child{
+    padding-left: 0px;
+}
+nav ul:last-child{
+    padding-right: 0px;
 }
 
 li a {
     margin-top: 5px;
+    white-space: nowrap;
 }
 
 /* nav dropdowlist start*/
 
 .dropdown {
     position: relative;
+    
     display: inline-block;
+   
+    
   }
 .dropdown_hardware {
     display: none;
@@ -127,11 +138,13 @@ li a {
     background-color: #1579C1;
     z-index: 9000; 
    margin-top: 10px;
+   
 }
 
 .dropdown_hardware ul {
 color: #fff;
 display: block;
+
 }
 
 .dropdown_hardware ul:hover {
@@ -786,12 +799,50 @@ font-family: 'Russo One', sans-serif;
 font-size: 18px;
 color: #1579C1;
 }
+
+/*search*/
+
+
 /*media*/
 
+.search_site{
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 300px;
+position: relative;
+top:70px;
+gap:5px;
+}
+
+.search_img{
+    width: min(70%, 190px);
+    flex: 1;
+    text-align: right; 
+}
+
+
+.search_text, h1{
+    text-align: left;
+    flex: 1;
+    font-size: 16px;
+    margin:0%
+    
+}
+#search{
+    display: block;
+    margin: auto;
+    align-content: center;
+    position: relative;
+    top: 60px;
+    width: min(90%, 280px);
+    border-radius: 5px;
+}
 @media (min-width: 600px){
 
 nav, nav li {
     display: inline-flex;
+    width: auto;
 }
 
 .dropdown:hover >ul {
