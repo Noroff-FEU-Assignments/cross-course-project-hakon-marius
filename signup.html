@@ -58,29 +58,27 @@
         <div class="login_container">
             <img src="Images/større bilder/world-collapse-doomsday-scene-digital-painting.jpg"
                 class="login_doomsday_image" alt="doomsday picture, men flying with burning rocks">
-            <section class="login_section">
+            <section class="login_section  hidden">
                 <div class="login_or_signup">
-                    <a href="login.html">
-                        <h1 class="active">login</h1>
+                    <a href="#">
+                        <h1>login</h1>
                     </a>
-                    <a href="signup.html">
+                    <a href="#">
                         <h2>sign up</h2>
                     </a>
                 </div>
                 <label for="username">user name</label>
                 <input type="text" id="username" name="username">
                 <label for="pass">password</label>
-
                 <input type="password" id="pass" name="password">
-                <div>
-                    <input type="checkbox" id="remember_me" name="remember_me">
-                    <label for="remember_me">remember me</label>
-                </div>
+                <input type="checkbox" id="remember_me" name="remember_me">
+                <label for="remember_me">remember me</label>
                 <a href="#" class="cta_send">login</a>
             </section>
-
-
-            <section class="sign_up_section hidden">
+            <section class="sign_up_section">
+                <a href="#">
+                    <h1 class="active">sign up</h1>
+                </a>
                 <label for="lname">enter last name</label>
                 <input type="lname" id="fname" name="lname">
                 <label for="email">email</label>
@@ -92,17 +90,14 @@
                 <label for="confirm_pass">confirm password</label>
                 <input type="confirm_password" id="confirm_pass" name="confirm_password">
                 <p>for sales membership</p>
-                <i class="fab fa-plus-circle"></i>
-                <div id="bank_account_section">
+                <label for="add_bank_account" class="add_bank_details">*</i></label>
+                <input type="checkbox" id="add_bank_account" />
+                <div class="bank_account_section">
                     <label for="bank_account_number">bank account number</label>
                     <input type="quantity" id="bank_account_number" name="bank_account_number">
                 </div>
                 <a href="#" class="cta_send">sign up</a>
             </section>
-
-
-
-
         </div>
         <section class="social-media">
             <h2>follow us on social media</h2>
@@ -110,7 +105,6 @@
                 <a href="#" class="snapchat"><i class="fab fa-snapchat-square"></i></a>
                 <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
                 <a href="#" class="snapchat"><i class="fab fa-instagram"></i></a>
-
         </section>
         </div>
     </main>

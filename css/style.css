@@ -1,234 +1,226 @@
 
 
+/*global styles*/
+
 html {
-    margin: 0;
-    padding: 0;
-    text-transform: capitalize;
-    min-height: 100vh;
+margin: 0;
+padding: 0;
+text-transform: capitalize;
+min-height: 100vh;
 }
  
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    
+margin: 0px;
+padding: 0px;
+box-sizing: border-box; 
 }
  
-
-
 h1, .vr-cta-view-more {
-    font-family: 'Russo One', sans-serif;
-    font-size: 2rem;
-    text-align: center;
+font-family: 'Russo One', sans-serif;
+font-size: 2rem;
+text-align: center;
 }
 
 h2 {
-    font-family: 'Russo One', sans-serif;
-    font-size: 2.2rem;
-    padding: 10px;
+font-family: 'Russo One', sans-serif;
+font-size: 2.2rem;
+padding: 10px;
+}
+
+h3 {
+font-family: 'Nanum Pen Script', cursive;
+padding-bottom: 20px;
 }
 
 h3, p {
-    font-family: 'ubuntu', sans-serif;
+font-family: 'ubuntu', sans-serif;
 }
 
-
 header {
-    background-color:#1579C1;
-    display: flex;
-    align-items: center;
-    color: #FFF;
-    justify-content: flex-end;
-    height: 125.6px;   
-    position: relative;
-    z-index: 1;
+background-color:#1579C1;
+display: flex;
+align-items: center;
+color: #FFF;
+justify-content: flex-end;
+height: 125.6px;   
+position: relative;
+z-index: 1;
 }
 
  .logo {
-    margin-right: auto;
+margin-right: auto;
 }
    
 footer {
-    background-color: #96968D;
+background-color: #96968D;
 }
 
 .footer_section_2 {
-    border-top-color: black;
-    text-align: center;
-    border-top-style: solid;
+border-top-color: black;
+text-align: center;
+border-top-style: solid;
 }
 
 /*search*/
 .search {
-    display: flex;
-    display: inline-flex;   
+display: flex;
+display: inline-flex;   
 }
 
 /*Links*/
 
 .logo img {
-    height: 85px;
-    margin: 15px 0px -10px 10px;   
+height: 85px;
+margin: 15px 0px -10px 10px;   
 }
 
  a {
-    text-decoration: none;
-    color: #fff;
+text-decoration: none;
+color: #fff;
 }
 
 h2  a {
-    text-decoration: none;
-    color: #1579C1;
+text-decoration: none;
+color: #1579C1;
 }
 
-h3 {
-    font-family: 'Nanum Pen Script', cursive;
-    padding-bottom: 20px;
-    }
-
 .active {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 nav {   
-    display: none;
-    position: absolute;
-    top: 125px;
-    background-color: #1579C1;
-    z-index: 1000;
-    right: 0px;
-    font-family: 'Russo One', sans-serif;
-    width: 100%;
+display: none;
+position: absolute;
+top: 125px;
+background-color: #1579C1;
+z-index: 1000;
+right: 0px;
+font-family: 'Russo One', sans-serif;
+width: 100%;
 }
 
 .gamepicker h2:hover, nav li a:hover {
-    color: black;
+color: black;
 }
 
 nav li {
-    display: block;
-    padding: 10px 4px;
-    line-height: 0.5;
-    display: inline-block;
+display: block;
+padding: 10px 4px;
+line-height: 0.5;
+display: inline-block;
 }
-
-
 
 nav ul:first-child{
-    padding-left: 0px;
+padding-left: 0px;
 }
 nav ul:last-child{
-    padding-right: 0px;
+padding-right: 0px;
 }
 
 li a {
-    margin-top: 5px;
-    white-space: nowrap;
+margin-top: 5px;
+white-space: nowrap;
 }
 
 /* nav dropdowlist start*/
 
 .dropdown {
-    position: relative;
-    
-    display: inline-block;
-   
-    
-  }
+position: relative;
+display: inline-block; 
+}
+
 .dropdown_hardware {
-    display: none;
-    position: absolute;
-    background-color: #1579C1;
-    z-index: 9000; 
-   margin-top: 10px;
-   
+display: none;
+position: absolute;
+background-color: #1579C1;
+z-index: 9000; 
+margin-top: 10px; 
 }
 
 .dropdown_hardware ul {
 color: #fff;
 display: block;
-
 }
 
 .dropdown_hardware ul:hover {
-    background-color: #1579C1;
-    padding: 20px 20px;
-    margin-top: 3px;
+background-color: #1579C1;
+padding: 20px 20px;
+margin-top: 3px;
 }
 
 .dropdown:hover >ul {
-    display: none; 
+display: none; 
 }
 
 /* nav dropdowlist end*/
 
 .cta {
-    position: absolute;
-    background-color: #FC1222;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    border-style: solid;
-    border-color : #fff;
-    font-size: 1.1rem;
-    font-family: 'Russo One', sans-serif;
-    bottom: 65px;
-    right:17px;
-    z-index: 1001;
+position: absolute;
+background-color: #FC1222;
+border-radius: 10px;
+padding: 5px 10px 5px 10px;
+border-style: solid;
+border-color : #fff;
+font-size: 1.1rem;
+font-family: 'Russo One', sans-serif;
+bottom: 65px;
+right:17px;
+z-index: 1001;
 }
 
 .cta-view-more {
-    background-color: #1579C1;
-    border-style: solid;
-    border-radius: 10px;
-    padding: 5px 15px 5px 15px;
-    font-size: 1.5em;
-    font-family: 'Russo One', sans-serif;
-    margin-top: 20px;
-    display: none;
+background-color: #1579C1;
+border-style: solid;
+border-radius: 10px;
+padding: 5px 15px 5px 15px;
+font-size: 1.5em;
+font-family: 'Russo One', sans-serif;
+margin-top: 20px;
+display: none;
 }
 
 .cta-view-more:hover {
-    background-color: #fff;
-    border-style: solid;
-    color: #1579C1;
+background-color: #fff;
+border-style: solid;
+color: #1579C1;
 }
       
 .user-account, #hamburger-menu, .login  {
-    display: none;
+display: none;
 }
 
 
 #hamburger-menu:checked ~ nav {
-    display: block;
+display: block;
 }
 
 .hamburgerbars {
-    margin-top: 85px;
-    margin-right: 5%;
-    font-size: 25px;
-    padding:6px;   
-    z-index: 1001;
+margin-top: 85px;
+margin-right: 5%;
+font-size: 25px;
+padding:6px;   
+z-index: 1001;
 }
 
 .login-mobil {
-    margin-left: auto;
-    padding-right: 15px;
-    padding-top: 75px;
-    font-family: 'Russo One', sans-serif;
-    font-size: 24px;
-    z-index: 1001;
+margin-left: auto;
+padding-right: 15px;
+padding-top: 75px;
+font-family: 'Russo One', sans-serif;
+font-size: 24px;
+z-index: 1001;
 }
 
 .vr-cta-view-more {
-    position: absolute;
-    background-color: #FC1222;
-    border-radius: 18px;
-    padding: 15px 30px 15px 30px;
-    border-style: solid;
-    border-color : #fff;
-    font-size: 1.9em;
-    bottom: -40px;
-    right: 20px;
+position: absolute;
+background-color: #FC1222;
+border-radius: 18px;
+padding: 15px 30px 15px 30px;
+border-style: solid;
+border-color : #fff;
+font-size: 1.9em;
+bottom: -40px;
+right: 20px;
 }
 
 .vr-cta-view-more:hover {
@@ -283,7 +275,6 @@ display: block;
     padding: 5px;
     margin-bottom: 10px;
     position: relative;
-    
 }
 
 .footerstyle {
@@ -302,7 +293,7 @@ display: block;
     color: #fff;
 }
 
-/*homepage*/
+/*homepage <600px */
 
 .therealdeal {
     position: absolute;
@@ -326,7 +317,7 @@ display: block;
     position: relative;
 }
 
-/*dekorations Homepage only for viewport +1200px*/
+/*Home page dekorations only for viewport +1200px*/
 
 .border1, .border2, .border3, .border4 {
     border-style: solid;
@@ -365,7 +356,7 @@ display: block;
 /* End dekorations Homepage only for viewport +1200px*/
 
 
-/*VR section*/
+/*VR section home page <600px */
 
 .vr-backgroundpicture {
     background-image:url(../Images/vr-background-image\ copy.jpg);
@@ -440,7 +431,7 @@ display: block;
     font-weight: bold;
 }
 
-/*contact*/
+/*contact <600px*/
 
 .contact_container{
     display: flex;
@@ -533,7 +524,7 @@ font-size: 16px;
 }
 
 
-/*Furious add to cart( shopping cart, quantity*/
+/*add to cart( furious shopping cart, quantity <600px*/
 
 .shopping_container {
     display: flex;
@@ -579,28 +570,28 @@ font-size: 16px;
 .totalprice{
     margin-left: 20px;
 }
-    /*new releases*/
+    /*new releases <600px*/
 
-    .new_releases_h1 {
-        margin:70px 30px 20px 30px;
-        font-size: 40px;
-    }
+.new_releases_h1 {
+margin:70px 30px 20px 30px;
+font-size: 40px;
+}
 
-    .new_releases_container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        row-gap: 30px;
-        margin-bottom: 100px;
-    }
+.new_releases_container{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+row-gap: 30px;
+margin-bottom: 100px;
+}
 
-    .new_releases_games_1 {
-        width: min(80%, 550px);
-        text-align: center;
-        margin:auto;  
-        position: relative;
-        margin-bottom: 20px;
-        }
+.new_releases_games_1 {
+width: min(80%, 550px);
+text-align: center;
+margin:auto;  
+position: relative;
+margin-bottom: 20px;
+}
 
     .new_releases_games_1 img {
         width: min(80%, 550px);
@@ -636,7 +627,7 @@ font-size: 16px;
     margin-top: 10px;
     }
    
-/*checkout success page*/
+/*checkout success page <600px*/
 
 .checkout_container{
     display: flex;
@@ -704,7 +695,7 @@ font-size: 16px;
     color:#1579C1;
 }
 
-/*account*/
+/*account <600px*/
 
 .account_container{
     display: flex;
@@ -747,18 +738,18 @@ align-items: center;
 }
 
 .signupfields_account input {
-    margin: 10px 0px 20px 0px;
-    border-color: #1D83CD;
-    border-radius: 5px;
-    line-height: 30px;
-    padding: 10px;
-    height: 35px;
-   background-color: #daedfa;
-   width: min(230px, 400px);
+margin: 10px 0px 20px 0px;
+border-color: #1D83CD;
+border-radius: 5px;
+line-height: 30px;
+padding: 10px;
+height: 35px;
+background-color: #daedfa;
+width: min(230px, 400px);
 }
 
 .account_information_cta{
-    margin-bottom: 65px;
+margin-bottom: 65px;
 }
 
 .account_information_cta a {
@@ -784,21 +775,21 @@ color: #1579C1;
 /*search*/
 
 .searchresult{
-    display: flex;
-    flex-direction: row; 
+display: flex;
+flex-direction: row; 
 }
 
 .searchfield_btn{
-    display: flex;
-   justify-content: center;
-   margin: 100px 0px 40px 0px;    
+display: flex;
+justify-content: center;
+margin: 100px 0px 40px 0px;    
 }
 
 .searchtext {
-    text-align: start;
-    margin-top: 10px;
-    text-align: left;
-    max-width: 222px;
+text-align: start;
+margin-top: 10px;
+text-align: left;
+max-width: 222px;
 }
     
 .search_btn{
@@ -832,6 +823,7 @@ flex: 1;
 .search_img{
 width: min(90%, 400px);
 margin-bottom: min(17%, 200px);
+
 }
 .section_1{
     display: flex;
@@ -846,7 +838,7 @@ margin-bottom: min(17%, 200px);
 }
 
 
-/*login page*/
+/*login page <600px*/
 
 .login_container > *{
     display: flex;
@@ -855,11 +847,28 @@ margin-bottom: min(17%, 200px);
     margin: auto;
 }
 
+.login_container h1 {
+    margin: 40px 20px 40px 0px
+}
+.login_container h2{
+    margin: 40px 0px 40px 0px
+}
+
+.login_container a{
+    color:#000;
+}
+
+.login_or_signup{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .login_container input{
    height: 30px;
    border-radius: 5px;
    padding: 5px;
-   margin: 10px 0px 10px 0px;
+   margin: 10px 0px 25px 0px;
 }
 .fa-circle-plus{
     background-color: #D31421;
@@ -869,10 +878,47 @@ margin-bottom: min(17%, 200px);
     display: none;
 }
 
+.hidden{
+    display: none;
+}
+
+#remember_me{
+position: relative;
+top: 8px;
+margin-right: 5px;
+}
+
+.bank_account_section{
+    display: none;
+}
+
+#add_bank_account:checked ~ .bank_account_section{
+    display: block;
+    }
+    
+    #add_bank_account{
+        display: none;
+    }
+
+/*furious game <600px*/
+
+.Sections_1, .section_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.furious_game_img{
+    width:min(80%,360px);
+   
+}
+
 /*media*/
 
 @media (min-width: 600px){
 
+  /*global +600px*/  
 nav, nav li {
     display: inline-flex;
     width: auto;
@@ -882,24 +928,16 @@ nav, nav li {
     display: block;  
 }
 
-.backgroundpic {
-    height: 550px;
+.login-mobil, .hamburgerbars, .searchfield, .searchbutton {
+    display: none;
 }
 
 .social-media-icons {
     font-size: 150px;   
 }
 
-.login-mobil, .hamburgerbars, .searchfield, .searchbutton {
-    display: none;
-}
-
-.cta-view-more {
-    display: inline-flex;
-}
-
 nav ul {
-    margin: 0px;
+margin: 0px;
 }
 .login {
     display: inline-flex;
@@ -914,8 +952,17 @@ nav {
     font-size: 1.8rem;
 }
 
-/*contactpage*/
+/*homepage +600px*/
 
+.backgroundpic {
+    height: 550px;
+}
+
+.cta-view-more {
+    display: inline-flex;
+}
+
+/*contactpage +600px*/
 
 .contact_container{
     flex-direction: row;
@@ -941,6 +988,8 @@ nav {
 }
 
 @media (min-width: 1200px){
+
+/*home page +1200px*/
 
 .vr-backgroundpicture {
     background-image:url(../Images/vr-background-image_copy_adjusted\ copy.jpg);
@@ -1007,7 +1056,7 @@ nav {
     transition: all 0.3s ease-out;
 }
 
-/*contactpage*/
+/*contactpage +1200px*/
 
 .contact_container{
 flex-direction: row;
@@ -1025,13 +1074,14 @@ flex-direction: row;
     top:-20px;
 }
 
-/*furious game(close up)*/
+/*furious game +1200px*/
 
 .furious {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
 }
+
 .furious_game_img{
     width: 500px ;
 }
@@ -1084,7 +1134,7 @@ flex-direction: row;
     display: inline;
 }
 
-/*New releases page*/
+/*New releases page +1200px*/
 
 .new_releases_container{
     flex-direction: row;
@@ -1098,9 +1148,9 @@ flex-direction: row;
 /*account*/
 .account_container{
     flex-direction: row;
-
 }
-/*Furious add to cart( shopping cart*/
+
+/*Furious add to cart(shopping cart +1200px*/
 
 .shopping_container {
     width: 1000px;
