@@ -703,13 +703,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;  
-height: 100%;
+
 }
 .account_container h1{
 margin: 25px 0px 35px 0px;
 }
 
-.account_img {
+.account_img_under1200px {
 height: min(150px, 250px);
 width: min(150px, 250px);
 border-radius: 5px;
@@ -717,7 +717,7 @@ border-radius: 5px;
 
 .signupfields_account {
 width: min(230px, 400px);
-margin: 30px 0px 15px 0px;
+margin: 30px 0px 0px 0px;
 display: flex;
 flex-direction: column;   
 }
@@ -757,7 +757,7 @@ margin-bottom: 65px;
 display: flex;
 background-color: var(--base_color);
 color: #fff;
-height: 35px;
+height: 36px;
 width: min(230px, 400px);
 margin: 30px auto 20px auto;
 border-radius: 10px;
@@ -771,6 +771,14 @@ text-align: center;
 font-family: 'Russo One', sans-serif;
 font-size: 18px;
 color: var(--base_color);
+}
+
+.account_img_over1200px{
+    display: none;
+}
+
+.header_salesmembership_under600px{
+    display: none;
 }
 
 /*search result page <600px*/
@@ -1138,14 +1146,67 @@ top:-20px;
 flex-direction: row;
 }
 
-/* checkout page*/
+/* checkout page +1200px*/
 .checkout_container{
 flex-direction: row;
 }
 
-/*account*/
+/*account page +1200px */
+
+.accountpage{
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+height: 100vh;
+align-items: center;
+padding-top: 120px;
+
+}
+
+.signupfields_account{
+margin: 30px 0px 0px 40px;
+position: relative;
+top:39px;
+}
+
+.header_salesmembership{
+position: relative;
+top:40px;
+}
+
+.account_img_over1200px{
+display: block;
+height: min(150px, 250px);
+width: min(150px, 250px);
+border-radius: 37px;
+position: relative;
+top: -567px;
+left: -235px;
+}
+.account_img_under1200px, .img_background{
+display: none;
+}
 .account_container{
-flex-direction: row;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 25px;
+    
+}
+.account_information_cta{
+position: relative;
+top:40px;
+}
+
+
+.header_my_account_page{
+position: relative;
+right: 242px;
+top: -64px;
+}
+
+.account_information_cta_over_1200px{
+    display: none;
 }
 
 /*Furious add to cart(shopping cart +1200px*/
