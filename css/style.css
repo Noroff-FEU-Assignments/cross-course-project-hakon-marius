@@ -15,7 +15,7 @@ box-sizing: border-box;
 }
 
 :root{
-    --base_color:#1579c1;
+--base_color:#1579c1;
 }
  
 h1, .vr-cta-view-more {
@@ -30,15 +30,6 @@ font-size: 2.2rem;
 padding: 10px;
 }
 
-h3 {
-font-family: 'Nanum Pen Script', cursive;
-padding-bottom: 20px;
-}
-
-h3, p {
-font-family: 'ubuntu', sans-serif;
-}
-
 header {
 background-color: var(--base_color);
 display: flex;
@@ -50,20 +41,10 @@ position: relative;
 z-index: 1;
 }
 
- .logo {
+.logo {
 margin-right: auto;
 }
    
-footer {
-background-color: #96968D;
-}
-
-.footer_section_2 {
-border-top-color: black;
-text-align: center;
-border-top-style: solid;
-}
-
 /*search*/
 .search {
 display: flex;
@@ -206,28 +187,12 @@ z-index: 1001;
 
 .login-mobil {
 margin-left: auto;
-padding-right: 15px;
-padding-top: 75px;
+padding: 75px 15px 0px 0px;
+/*padding-right: 15px;
+padding-top: 75px;*/
 font-family: 'Russo One', sans-serif;
 font-size: 24px;
 z-index: 1001;
-}
-
-.vr-cta-view-more {
-position: absolute;
-background-color: #FC1222;
-border-radius: 18px;
-padding: 15px 30px 15px 30px;
-border-style: solid;
-border-color : #fff;
-font-size: 1.9em;
-bottom: -40px;
-right: 20px;
-}
-
-.vr-cta-view-more:hover {
-border-color : #D31421;
-background-color: #D31421;
 }
 
 .searchbutton {
@@ -253,6 +218,16 @@ height: 22px;
 }
 
 /*footer*/
+
+.footer_section_2 {
+border-top-color: black;
+text-align: center;
+border-top-style: solid;
+}
+
+footer {
+background-color: #96968D;
+}
 
 .logo-footer img {
 height: 120px;
@@ -296,6 +271,32 @@ color: #fff;
 
 /*homepage <600px */
 
+.next_level_glasses_vr_section{
+color: #fff;
+}
+
+
+.vr-cta-view-more {
+    position: absolute;
+    background-color: #FC1222;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    border-style: solid;
+    border-color : #fff;
+    font-size: 1.9em;
+    bottom: -40px; right: 20px;
+    }
+    
+    .vr-cta-view-more:hover {
+    border-color : #D31421;
+    background-color: #D31421;
+    }
+
+
+
+
+
+
 .therealdeal {
 position: absolute;
 top: 50px;
@@ -311,7 +312,7 @@ left: 18px;
 }
 
 .backgroundpic {
-background-image:url(../Images/large_images/world-collapse-doomsday-scene-digital-painting_desktop.jpg);
+background-image:url(../Images/large_images/world-collapse-doomsday-scene-digital-painting_desktop_cropped.jpg);
 background-size: cover;
 display: block;
 height: 350px;
@@ -321,38 +322,29 @@ position: relative;
 /*Home page dekorations only for viewport +1200px*/
 
 .border1, .border2, .border3, .border4 {
-border-style: solid;
+border: solid #fff;
 position: absolute;
-color: #FFF;
 display: none;
 }
 
 .border1 {
-right:300px;
-top:100px; 
-width: 3px;
-height: 360px;
+top:100px; right:300px;
+width: 3px; height: 280px;
 }
 
 .border2 {
-right:300px;
-top:100px; 
-width: 23%;
-height: 3px;
+top:100px; right:300px;
+width: 23%; height: 3px;
 }
 
 .border3 {
-left:65px;
-bottom:100px; 
-width: 48%;
-height: 3px;    
+bottom:100px; left:65px;
+width: 48%; height: 3px;   
 }   
 
 .border4 {
-left:65px;
-bottom:100px; 
-width: 3px;
-height: 500px;
+left:65px; bottom:100px;
+width: 3px; height: 280px;
 }
 /* End dekorations Homepage only for viewport +1200px*/
 
@@ -370,8 +362,7 @@ position: relative;
 }
 .vr-backgroundpicture h1 {
 position: absolute;
-top:25px;
-left:25px;
+top:25px; left:25px;
 font-size: 60px;
 }
 
@@ -489,7 +480,7 @@ margin-left: 0px;
 .signupfields h2{
 font-size: 1.5em;
 padding: 10px;
-  }
+}
 
 .contact h2 {
 font-family: 'ubuntu', sans-serif;
@@ -500,11 +491,12 @@ color: #fff;
 background-color: var(--base_color);
 padding: 3px 60px 3px 60px;
 border-radius: 5px;
-font-size: 30px;
+font-size: 27px;
 font-family: 'Russo One', sans-serif;
 text-align: center;
 margin: 30px auto 80px auto;
 }
+
 
 .start_chat{
 background-color: var(--base_color);
@@ -523,14 +515,13 @@ color:#000;
 text-decoration: underline;
 }
 
-
 /*Furious add to cart( furious shopping cart, quantity <600px*/
 .main_container_add_to_cart{
-height: 100vh;
+height: 110vh;
 }
 
 .information_field_over_1200px{
-    display: none;
+display: none;
 }
 .shopping_container {
 display: flex;
@@ -543,28 +534,37 @@ font-weight: 600;
 }
 .shopping_container > *{
 margin-bottom: 12px;
+
 }
 .shopping_container h1{
 margin: 20px 0px 10px 0px;
 }
 .shipping{
-font-weight: 200;
-margin: 0px auto 22px auto;
+margin: 0px auto 79px auto;
 font-size: 17px;
 font-weight: 400;
+display: flex;
+position: relative;
+top: 78px;
+left: 20px;
+}
+.heading_hide_your_under_1200px, .furious_game_information{
+display: none;
+}
 
-}
-.heading_hide_your_under_1200px{
-    display: none;
-}
-.table th {
+.table th, tr {
 padding: 5px;
 border: 1px solid;
 border-radius: 10px;
+margin-left: 0%;
 }
 
 .table{
-float: right;
+position: relative;
+top: 43px;
+justify-content: right;
+display: flex;
+left: 75px;
 }
 
 .furious_img_add_to_cart {
@@ -574,19 +574,42 @@ margin: 10px 0px 10px 0px;
 .purchase{
 background-color: var(--base_color);
 color: #fff;
-}
-.purchase{
 margin-bottom: 100px;
 }
-.totalprice{
-    margin-left: 20px;
+
+.purchase:hover{
+    background-color: #fff;
+    border-style: solid;
+    color: var(--base_color);
 }
 
+.left_title_furious{
+float:left;
+}
+.right_price{
+float:right;
+}
+.left_quantity{
+float: left;
+position: relative;
+top: 49px;
+right: 59px;
+font-size: 27px;
+}
+
+.right_totalprice{
+top: 25px;
+position: relative;
+font-size: 25px;
+justify-content: center;
+display: flex;
+}
 /*new releases <600px*/
 
 .new_releases_h1 {
 margin:70px 30px 20px 30px;
 font-size: 40px;
+flex: 1 1 100%;
 }
 
 .new_releases_container{
@@ -776,6 +799,11 @@ justify-content: center;
 align-items: center;
 font-family: 'Russo One', sans-serif;
 }
+.account_information_cta a:hover{
+    background-color: #fff;
+    border-style: solid;
+    color: var(--base_color);
+}
 
 .header_salesmembership {
 text-align: center;
@@ -860,11 +888,16 @@ margin: 7px;
 
 /*login page <600px*/
 
+.login_container{
+height: 110vh;
+}
+
 .login_container > *{
 display: flex;
 flex-direction: column;
 width: min(65%, 280px);
 margin: auto;
+
 }
 
 .login_container h1 {
@@ -876,6 +909,16 @@ margin: 40px 0px 40px 0px
 
 .login_container a{
 color:#000;
+}
+
+.login_container .cta_send{
+color:#fff;
+}
+
+.login_container .cta_send:hover{
+background-color: #fff;
+border-style: solid;
+color: var(--base_color);
 }
 
 .login_or_signup{
@@ -919,6 +962,10 @@ display: block;
 display: none;
 }
 
+/*sign up*/
+
+
+
 /*furious game <600px*/
 
 .furious{
@@ -959,6 +1006,10 @@ flex-direction: column;
 width: min(80%, 450px);
 margin: auto;
 }
+.ratings_header{
+    margin-top: 25px;
+    font-weight: 700;
+}
 
 .game_and_price_info{
 flex-direction: row;
@@ -969,13 +1020,12 @@ justify-content: center;
 margin: auto;
 }
 .add_to_cart{
-text-align: center; 
-padding: 10px 50px 10px 50px;
+text-align: center;
+padding: 10px 35px 10px 35px;
 background-color: var(--base_color);
-font-family: 'Russo One', sans-serif; 
-border-radius: 6px;
+font-family: 'Russo One', sans-serif;
+border-radius: 10px;
 margin: 15px auto 25px auto;
-width: 200px;
 }
 
 .name_and_price{
@@ -985,7 +1035,9 @@ font-family: 'ubuntu', sans-serif;
 font-weight: 900;
 font-size: 25px;
 }
-
+.name_and_price p{
+margin-top:20px;
+}
 
 /*media*/
 
@@ -1034,7 +1086,7 @@ height: 550px;
 }
 
 .cta-view-more {
-    display: inline-flex;
+display: inline-flex;
 }
 
 /*contactpage +600px*/
@@ -1064,7 +1116,7 @@ height: 200px;
 
 @media (min-width: 1200px){
 
-/*home page +1200px*/
+/*home/index page +1200px*/
 
 .vr-backgroundpicture {
 background-image:url(../Images/vr-background-image_copy_adjusted\ copy.jpg);
@@ -1073,7 +1125,7 @@ margin-bottom: 120px;
 }
 
 .backgroundpic {    
-height: 750px;
+height: 550px;
 margin-bottom: 30px;
 }
 
@@ -1150,12 +1202,12 @@ position: relative;
 top:-20px;
 }
 
-
 /*New releases page +1200px*/
 
 .new_releases_container{
 flex-direction: row;
 }
+
 
 /* checkout page +1200px*/
 .checkout_container{
@@ -1171,7 +1223,6 @@ justify-content: center;
 height: 100vh;
 align-items: center;
 padding-top: 120px;
-
 }
 
 .signupfields_account{
@@ -1191,9 +1242,9 @@ height: min(150px, 250px);
 width: min(150px, 250px);
 border-radius: 37px;
 position: relative;
-top: -567px;
-left: -235px;
+top: -567px; left: -235px;
 }
+
 .account_img_under1200px, .img_background{
 display: none;
 }
@@ -1201,23 +1252,21 @@ display: none;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-top: 25px;
-    
+margin-top: 25px;    
 }
+
 .account_information_cta{
 position: relative;
 top:40px;
 }
 
-
 .header_my_account_page{
 position: relative;
-right: 242px;
-top: -64px;
+top: -64px; right: 242px;
 }
 
 .account_information_cta_over_1200px{
-    display: none;
+display: none;
 }
 
 /*Furious add to cart(shopping cart +1200px*/
@@ -1225,14 +1274,11 @@ top: -64px;
 .information_field_over_1200px{
 display: inline-flex;
 background-color: #d2d2c6;
-height: 23px;
-width: 900px;
+height: 23px; width: 900px;
 position: relative;
-top: -51px;
-right: 2px;
+top: -51px; right: 2px;
 justify-content: space-between;
 padding: 3px;
-
 }
 
 .shopping_container {
@@ -1244,18 +1290,16 @@ align-items:center;
 .furious_img_add_to_cart{
 width: 180px;
 position: relative;
-top: -110px;
-left: 6px;
+top: -110px; left: 6px;
 }
+
 .heading_hide_your_under_1200px{
-    display: inline-flex;
-    position: relative;
-   
+display: inline-flex;
 }
+
 .heading_add_to_cart_page{
 position: relative;
-top: -174px;
-right: 195px;
+top: -174px; right: 195px;
 }
 
 .container_outline_1200px{    
@@ -1264,33 +1308,77 @@ height: 260px;
 outline: var(--base_color) solid 3px;
 position: relative;
 top: 230px;
+}
 
+.purchase{
+position: relative;
+top: 330px; left: 290px;
+}
+
+
+.right_price{
+position: relative;
+top: -264px; right: 90px;
+}
+.furious_game_information{
+display: inline-flex;
+position: relative;
+top: -264px; left: 138px;
+}
+    
+.shipping{
+top:-58px; left:556px;
+}
+    
+.left_title_furious{
+position: relative;
+top:-318px; left:203px;
+}
+    
+.left_quantity, .remove_total {
+display: none;
+}
+    
+.right_totalprice{
+display: inline;
+top:-421px; left:400px;
+font-size: 16px;
+}
+    
+.information_field_over_1200px p:last-child {
+position: relative;
+right:100px;  
+}
+.information_field_over_1200px p:nth-child(2) {
+position: relative;
+right:-115px;  
+}
+.table{
+top:-295px; left:-270px;
 }
 
 /*login +1200px*/
 
-.login_container{
+ .login_container{
 display: flex;
 flex-direction: row;
- 
 }
+
 .login_doomsday_image_container{
 display: flex;
 margin-right: 5%;  
 }
 
 .login_doomsday_image{
-width: 250px;
-height: 250px;
+width: 250px; height: 250px;
 border-radius: 25px;
-display: inline-flex;
-   
+display: inline-flex;  
 }
+
 .login_section{
 display: flex;
 margin-left: 0%;
 }
-
 
 /*sign up page +1200px */
 
@@ -1311,7 +1399,7 @@ flex: 1;
 margin-right:40px;
 }
 
-/*furious game*/
+/*furious game +1200px*/
 
 .furious{
 flex-direction: row;
@@ -1323,6 +1411,7 @@ position: relative;
 top:100px;
 max-width: 400px;
 flex:2;
+margin-bottom: 5px;
 }
 
 .furious_game_img{
@@ -1330,31 +1419,29 @@ width: 450px;
 margin: 60px 0px 70px 0px;
 flex:1;
 }
+
 .ratings{
 position: relative;
 top: 105px;  
 margin-bottom: 25px;
 }
 
+
 .add_to_cart{
 position: relative;
-top: 365px;
-right:57px;
+top: 365px; right:57px;
 }
 
 .furious h1{
 position: relative;
-left: 609px;
 font-size: 19px;
-top: 42px;
+top: 42px; left: 609px;
 }
 
 .furious h2{
 position: relative;
-left: 640px;
-top: 42px;
+top: 42px; left: 640px;
 }
-
 
 .furious_left{
 display: none;
