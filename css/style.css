@@ -1057,7 +1057,13 @@ font-size: 2.6rem;
 
 @media (min-width: 600px){
 
-    /* games */
+    
+/* games <600px*/
+
+.dropdown .games_break_link{
+    cursor: not-allowed;
+    pointer-events: none;
+}
 
 .games_grid_container{
 display: grid;
