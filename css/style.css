@@ -160,7 +160,7 @@ padding: 5px 15px 5px 15px;
 font-size: 1.5em;
 font-family: 'Russo One', sans-serif;
 margin-top: 20px;
-display: none;
+/*display: none;*/
 }
 
 .cta-view-more:hover {
@@ -205,9 +205,7 @@ font-family: 'Russo One', sans-serif;
 display: none;  
 }
 
-.snapchat:hover, .facebook:hover, .snapchat:hover {
-color: #000;
-}
+
 
 .searchfield input {
 border:0;
@@ -372,10 +370,11 @@ height: 250px;
 border-radius: 15px;
 }
 
+/*
 .games-image:hover {
 width: 260px;
 transition: all 0.3s ease-out;
-}
+}*/
 
 .social-media {
 background-color: var(--base_color);
@@ -1007,8 +1006,8 @@ width: min(80%, 450px);
 margin: auto;
 }
 .ratings_header{
-    margin-top: 25px;
-    font-weight: 700;
+margin-top: 25px;
+font-weight: 700;
 }
 
 .game_and_price_info{
@@ -1039,9 +1038,33 @@ font-size: 25px;
 margin-top:20px;
 }
 
+/* games */
+
+.games_header{
+margin-top: 40px;
+font-size: 2.6rem;
+}
+.categorie_header_games{
+    font-size: 25px;
+    padding:10px;
+}
 /*media*/
 
 @media (min-width: 600px){
+
+    /* games */
+
+.games_grid_container{
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto; 
+width: 600px; 
+margin: auto; 
+height: 140vh;
+}
+
+
+
 
 /*global +600px*/  
 
@@ -1117,6 +1140,14 @@ height: 200px;
 @media (min-width: 1200px){
 
 /*home/index page +1200px*/
+/*games*/
+
+.games_grid_container{
+    width: 950px;
+}
+.game_grid_child{
+margin: 0px 40px 0px 40px;
+}
 
 .vr-backgroundpicture {
 background-image:url(../Images/vr-background-image_copy_adjusted\ copy.jpg);
@@ -1178,10 +1209,11 @@ nav {
 top: 78px;
 }
 
+/*
 .games-image:hover {
 width: 275px;
 transition: all 0.3s ease-out;
-}
+}*/
 
 /*contactpage +1200px*/
 
@@ -1452,5 +1484,7 @@ position: relative;
 top:360px;
 font-weight: bolder;
 }
-
+.snapchat:hover, .facebook:hover, .snapchat:hover {
+    color: #000;
+    }
 }
