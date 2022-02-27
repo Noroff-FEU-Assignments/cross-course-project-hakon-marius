@@ -1048,6 +1048,11 @@ font-size: 2.6rem;
     font-size: 25px;
     padding:10px;
 }
+
+.games_grid_container{
+    height: fit-content;
+}
+
 /*media*/
 
 @media (min-width: 600px){
