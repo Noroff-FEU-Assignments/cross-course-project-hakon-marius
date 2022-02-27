@@ -502,7 +502,7 @@ text-decoration: underline;
 
 /*Furious add to cart( furious shopping cart, quantity <600px*/
 .main_container_add_to_cart{
-height: 110vh;
+height: 140vh;
 }
 
 .information_field_over_1200px{
@@ -524,6 +524,7 @@ margin-bottom: 12px;
 .shopping_container h1{
 margin: 20px 0px 10px 0px;
 }
+
 .shipping{
 margin: 0px auto 79px auto;
 font-size: 17px;
@@ -533,6 +534,7 @@ position: relative;
 top: 78px;
 left: 20px;
 }
+
 .heading_hide_your_under_1200px, .furious_game_information{
 display: none;
 }
@@ -1367,7 +1369,8 @@ top: -264px; left: 138px;
 }
     
 .shipping{
-top:-58px; left:556px;
+float:right;
+top:-58px; 
 }
     
 .left_title_furious{
