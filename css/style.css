@@ -846,7 +846,8 @@ background-color: var(--base_color);
 color: #fff;
 border-radius: 3px;  
 border-style: none;
-font-family: 'Russo One', sans-serif;   
+font-family: 'Russo One', sans-serif;  
+cursor: pointer; 
 }
 .searchfield_btn input{
 height: 30px;
@@ -891,6 +892,7 @@ margin: 7px;
 height: 110vh;
 }
 
+
 .login_container > *{
 display: flex;
 flex-direction: column;
@@ -930,6 +932,7 @@ height: 30px;
 border-radius: 5px;
 padding: 5px;
 margin: 10px 0px 25px 0px;
+width: 100%;
 }
 .fa-circle-plus{
 background-color: #D31421;
@@ -947,6 +950,7 @@ display: none;
 position: relative;
 top: 8px;
 margin-right: 5px;
+width: auto;
 }
 
 .bank_account_section{
@@ -959,6 +963,14 @@ display: block;
     
 #add_bank_account{
 display: none;
+}
+
+.add_bank_details{
+cursor: pointer;
+background-color: var(--base_color);
+width: 20px;
+height: 20px;
+border-radius: 50%;
 }
 
 /*sign up*/
@@ -1345,6 +1357,10 @@ position: relative;
 top: -174px; right: 195px;
 }
 
+.tabel_pointer{
+cursor: pointer;
+}
+
 .container_outline_1200px{    
 width: 900px;
 height: 260px;
@@ -1434,12 +1450,17 @@ display: flex;
 flex: 1;
 margin-right: 20%;
 max-width: 400px;
+
 }
 .Signup_image_container{
 display:flex;
 align-items: flex-end;
 flex: 1;
 margin-right:40px;
+}
+
+.signup_container{
+    height: 130vh;
 }
 
 /*furious game +1200px*/
