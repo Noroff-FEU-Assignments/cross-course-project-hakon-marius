@@ -286,10 +286,7 @@ font-size: 1.9em;
 bottom: -40px; right: 20px;
 }
     
-.vr-cta-view-more:hover {
-border-color : #D31421;
-background-color: #D31421;
-}
+
 
 .therealdeal {
 position: absolute;
@@ -984,6 +981,7 @@ float: left;
 }
 .price_right{
 float:right;
+font-size: 20px;
 }
 
 .image_class{
@@ -1159,6 +1157,10 @@ margin: 0px 40px 0px 40px;
 background-image:url(../Images/vr-background-image_copy_adjusted\ copy.jpg);
 display: block;
 margin-bottom: 120px;
+}
+.vr-cta-view-more:hover {
+border-color : #D31421;
+background-color: #D31421;
 }
 
 .backgroundpic {    
@@ -1452,10 +1454,11 @@ width: 100%;
 .section_text{
 position: relative;
 top:100px;
-max-width: 400px;
+max-width: 550px;
 flex:2;
-margin-bottom: 5px;
-font-size: 14px;
+margin-bottom: 1px;
+font-size: 16px;
+
 }
 
 .furious_game_img{
@@ -1472,18 +1475,18 @@ margin-bottom: 25px;
 
 .add_to_cart{
 position: relative;
-top: 365px; right:57px;
+top: 365px; right:112px;
 }
 
 .furious h1{
 position: relative;
 font-size: 19px;
-top: 42px; left: 609px;
+top: 42px; left: 620px;
 }
 
 .furious h2{
 position: relative;
-top: 42px; left: 640px;
+top: 42px; left: 651px;
 }
 
 .furious_left{
