@@ -14,6 +14,10 @@ padding: 0px;
 box-sizing: border-box; 
 }
 
+body p {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 :root{
 --base_color:#1579c1;
 }
@@ -58,7 +62,7 @@ height: 85px;
 margin: 15px 0px -10px 10px;   
 }
 
- a {
+a {
 text-decoration: none;
 color: #fff;
 }
@@ -205,8 +209,6 @@ font-family: 'Russo One', sans-serif;
 display: none;  
 }
 
-
-
 .searchfield input {
 border:0;
 border-radius: 3px;
@@ -273,27 +275,21 @@ color: #fff;
 color: #fff;
 }
 
-
 .vr-cta-view-more {
-    position: absolute;
-    background-color: #FC1222;
-    border-radius: 10px;
-    padding: 15px 30px 15px 30px;
-    border-style: solid;
-    border-color : #fff;
-    font-size: 1.9em;
-    bottom: -40px; right: 20px;
-    }
+position: absolute;
+background-color: #FC1222;
+border-radius: 10px;
+padding: 15px 30px 15px 30px;
+border-style: solid;
+border-color : #fff;
+font-size: 1.9em;
+bottom: -40px; right: 20px;
+}
     
-    .vr-cta-view-more:hover {
-    border-color : #D31421;
-    background-color: #D31421;
-    }
-
-
-
-
-
+.vr-cta-view-more:hover {
+border-color : #D31421;
+background-color: #D31421;
+}
 
 .therealdeal {
 position: absolute;
@@ -369,12 +365,6 @@ width: 250px;
 height: 250px;
 border-radius: 15px;
 }
-
-/*
-.games-image:hover {
-width: 260px;
-transition: all 0.3s ease-out;
-}*/
 
 .social-media {
 background-color: var(--base_color);
@@ -496,7 +486,6 @@ text-align: center;
 margin: 30px auto 80px auto;
 }
 
-
 .start_chat{
 background-color: var(--base_color);
 border-radius: 3px;
@@ -577,9 +566,9 @@ margin-bottom: 100px;
 }
 
 .purchase:hover{
-    background-color: #fff;
-    border-style: solid;
-    color: var(--base_color);
+background-color: #fff;
+border-style: solid;
+color: var(--base_color);
 }
 
 .left_title_furious{
@@ -798,10 +787,11 @@ justify-content: center;
 align-items: center;
 font-family: 'Russo One', sans-serif;
 }
+
 .account_information_cta a:hover{
-    background-color: #fff;
-    border-style: solid;
-    color: var(--base_color);
+background-color: #fff;
+border-style: solid;
+color: var(--base_color);
 }
 
 .header_salesmembership {
@@ -812,11 +802,11 @@ color: var(--base_color);
 }
 
 .account_img_over1200px{
-    display: none;
+display: none;
 }
 
 .header_salesmembership_under600px{
-    display: none;
+display: none;
 }
 
 /*search result page <600px*/
@@ -885,20 +875,17 @@ display: block;
 margin: 7px;
 }
 
-
 /*login page <600px*/
 
 .login_container{
 height: 110vh;
 }
 
-
 .login_container > *{
 display: flex;
 flex-direction: column;
 width: min(65%, 280px);
 margin: auto;
-
 }
 
 .login_container h1 {
@@ -973,9 +960,6 @@ height: 20px;
 border-radius: 50%;
 }
 
-/*sign up*/
-
-
 
 /*furious game <600px*/
 
@@ -1047,22 +1031,22 @@ font-weight: 900;
 font-size: 25px;
 }
 .name_and_price p{
-margin-top:20px;
+margin-top:-10px;
 }
 
-/* games */
+/*games*/
 
 .games_header{
 margin-top: 40px;
 font-size: 2.6rem;
 }
 .categorie_header_games{
-    font-size: 25px;
-    padding:10px;
+font-size: 25px;
+padding:10px;
 }
 
 .games_grid_container{
-    height: fit-content;
+height: fit-content;
 }
 
 /*media*/
@@ -1070,11 +1054,11 @@ font-size: 2.6rem;
 @media (min-width: 600px){
 
     
-/* games <600px*/
+/*games <600px*/
 
 .dropdown .games_break_link{
-    cursor: not-allowed;
-    pointer-events: none;
+cursor: not-allowed;
+pointer-events: none;
 }
 
 .games_grid_container{
@@ -1085,9 +1069,6 @@ width: 600px;
 margin: auto; 
 height: 140vh;
 }
-
-
-
 
 /*global +600px*/  
 
@@ -1162,16 +1143,18 @@ height: 200px;
 
 @media (min-width: 1200px){
 
-/*home/index page +1200px*/
-/*games*/
+
+
+/*games +1200px*/
 
 .games_grid_container{
-    width: 950px;
+width: 950px;
 }
 .game_grid_child{
 margin: 0px 40px 0px 40px;
 }
 
+/*home/index page +1200px*/
 .vr-backgroundpicture {
 background-image:url(../Images/vr-background-image_copy_adjusted\ copy.jpg);
 display: block;
@@ -1232,11 +1215,6 @@ nav {
 top: 78px;
 }
 
-/*
-.games-image:hover {
-width: 275px;
-transition: all 0.3s ease-out;
-}*/
 
 /*contactpage +1200px*/
 
@@ -1302,6 +1280,7 @@ top: -567px; left: -235px;
 
 .account_img_under1200px, .img_background{
 display: none;
+
 }
 .account_container{
 display: flex;
@@ -1476,6 +1455,7 @@ top:100px;
 max-width: 400px;
 flex:2;
 margin-bottom: 5px;
+font-size: 14px;
 }
 
 .furious_game_img{
@@ -1489,7 +1469,6 @@ position: relative;
 top: 105px;  
 margin-bottom: 25px;
 }
-
 
 .add_to_cart{
 position: relative;
@@ -1517,6 +1496,6 @@ top:360px;
 font-weight: bolder;
 }
 .snapchat:hover, .facebook:hover, .snapchat:hover {
-    color: #000;
-    }
+color: #000;
+}
 }
