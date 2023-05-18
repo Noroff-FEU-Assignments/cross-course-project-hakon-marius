@@ -52,5 +52,5 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 To get in touch contact me at Discord Håkon-Marius Solvang -Aug21 PT#9038 or 
-by my Email adress hakon.marius.solvang@gmail.com
+by Email adress hakon.marius.solvang@gmail.com
 
