@@ -15,10 +15,7 @@ You can add some bullet points if you'd like to:
 - List item 3
 
 ## Built With
-
-You can list a the tech stack that you've used over here
-
-- HTML.
+- HTML
 - CSS
 
 ## Getting Started
@@ -56,13 +53,4 @@ Here you can detail any information you want to provide regarding contributing t
 ## Contact
 
 [My Email adress] hakon.marius.solvang@gmail.com
-
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
 
