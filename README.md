@@ -57,7 +57,8 @@ Discord Håkon-Marius Solvang -Aug21 PT#9038 or
 Email adress hakon.marius.solvang@gmail.com
 
 Acknowledgments  
-*[Noroff](https://www.noroff.no/studier/fagskole/nettverk-it-sikkerhet?gclid=Cj0KCQjwmZejBhC_ARIsAGhCqndTNlhYI4B0Ge7Ua9g_TC4Ewe92ocpNh8a9DusiM8oxyfmKOWZTn1waAkfKEALw_wcB)
+
+* [Noroff](https://www.noroff.no/studier/fagskole/nettverk-it-sikkerhet?gclid=Cj0KCQjwmZejBhC_ARIsAGhCqndTNlhYI4B0Ge7Ua9g_TC4Ewe92ocpNh8a9DusiM8oxyfmKOWZTn1waAkfKEALw_wcB)
 * [Netlify](https://www.netlify.com/)
 * [Font Awsome](https://fontawesome.com/)
 * [Free formatter.com](https://www.freeformatter.com/html-validator.html)
