@@ -59,5 +59,6 @@ Email adress hakon.marius.solvang@gmail.com
 Acknowledgments
 * [Netlify](https://www.netlify.com/)
 * [Font Awsome](https://fontawesome.com/)
+* [Free formatter.com](https://www.freeformatter.com/html-validator.html)
 
 
