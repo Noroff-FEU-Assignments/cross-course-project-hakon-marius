@@ -2,7 +2,7 @@
 
 ![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-hakon-marius/blob/main/Images/world-collapse-doomsday-scene-digital-painting.png)
 
-A simple overview of the use/purpose of the project.
+This project demonstrates the practical application of my HTML and CSS skills. Its primary objective is to develop a functional and responsive webpage.
 
 ## Description
 
