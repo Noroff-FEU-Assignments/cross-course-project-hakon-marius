@@ -57,5 +57,6 @@ Discord Håkon-Marius Solvang -Aug21 PT#9038 or
 Email adress hakon.marius.solvang@gmail.com
 
 Acknowledgments
-* [Netlify] (https://www.netlify.com/)
+* [Netlify](https://www.netlify.com/)
+
 
