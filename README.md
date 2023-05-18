@@ -1,4 +1,4 @@
-# cross-course-project GameHUb, the universe of games
+# cross-course-project GameHUB, The universe of games!
 cross-course-project-hakon-marius created by GitHub Classroom
 ![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-hakon-marius/blob/main/Images/world-collapse-doomsday-scene-digital-painting.png)
 
