@@ -55,7 +55,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-[My Email adress](hakon.arius.solvang@gmail.com)
+[My Email adress] hakon.marius.solvang@gmail.com
 
 
 ## License
