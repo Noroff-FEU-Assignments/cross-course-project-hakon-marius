@@ -1,4 +1,5 @@
-# Cross course project GameHUB, The universe of games!
+# Cross course project  
+GameHUB, The universe of games!
 
 ![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-hakon-marius/blob/main/Images/world-collapse-doomsday-scene-digital-painting.png)
 
