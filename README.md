@@ -58,6 +58,6 @@ Email adress hakon.marius.solvang@gmail.com
 
 Acknowledgments
 * [Netlify](https://www.netlify.com/)
-* [Font Awsome] (https://fontawesome.com/)
+* [Font Awsome](https://fontawesome.com/)
 
 
