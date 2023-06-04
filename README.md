@@ -3,7 +3,7 @@
 
 ![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-hakon-marius/blob/main/Images/world-collapse-doomsday-scene-digital-painting.png)
 
-This project demonstrates what I have learned so far in HTML and CSS over this course (27 February 2022). Its primary objective is to develop a functional and responsive web page.
+This project demonstrates what I have learned so far in this course, HTML and CSS (27 February 2022). Its primary objective is to develop a functional and responsive web page.
 
 ## Description
 
