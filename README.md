@@ -3,7 +3,7 @@
 
 ![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-hakon-marius/blob/main/Images/world-collapse-doomsday-scene-digital-painting.png)
 
-This project demonstrates the practical application of my HTML and CSS skills. Its primary objective is to develop a functional and responsive webpage.
+This project demonstrates what I have learned so far in HTML and CSS over this course (27 February 2022). Its primary objective is to develop a functional and responsive web page.
 
 ## Description
 
